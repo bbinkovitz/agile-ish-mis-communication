@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Success without a Babel Fish</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="palantir/palantir.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <style>
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="reveal">
+
+      <div class="slides">
+        <section>
+          <h1>Success</h1>
+          <h2>(without a Babel Fish)</h2>
+          <p>
+            <small>Presented by Beth Binkovitz and Kelsey Bentham</small>
+          </p>
+        </section>
+
+        <section>
+          <h2>Your Hosts</h2>
+          <img src="palantir/palantirnet-logo-4c-reversed.svg" alt="Palantir.net Pays us!" style="width: 300px; float: right;" />
+          <ul>
+            <li>Beth Binkovitz <br /><small>Engineer, <a href="http://www.palantir.net/">Palantir.net</a></small></li>
+            <li>Kelsey Bentham <br /><small>Engineer, <a href="http://www.palantir.net/">Palantir.net</a></small></li>
+          </ul>
+        </section>
+
+        <section>
+          <section data-background="assets/pocket-protector.jpg">
+            <div style="font-weight: bold; position: relative; top: -3em; text-shadow: 2px 2px 2px #000;">
+              <p>Lorem Ipsum</p>
+              <p>Dolor Sit Amet</p>
+            </div>
+          </section>
+
+          <section data-background="assets/drupal-delorean.jpg">
+            <div style="font-weight: bold; position: relative; top: 10em; text-shadow: 2px 2px 2px #000;">
+              <p>Lorem Ipsum</p>
+              <p>Dolor Sit Amet</p>
+            </div>
+          </section>
+          <section>
+            <h2>Lorem</h2>
+            <div style="width: 48%; float: right; border: 1px;">
+              <h3><a href="http://en.wikipedia.org/wiki/Lorem_Ipsum">Ipsum</a></h3>
+              <p>1903-1957</p>
+              <img src="assets/john-von-neumann.gif" data-credit="http://en.wikipedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif" height="300px" />
+              <ul>
+                <li>Dolor</li>
+                <li>...</li>
+              </ul>
+            </div>
+            <ul style="width: 48%; float: left;">
+              <li class="fragment">Sit</li>
+              <li class="fragment">Amet</li>
+              <li class="fragment">Adispiscing</li>
+            </ul>
+            <br style="clear: both" />
+          </section>
+        </section>
+        <section>
+          <section>
+            <h2>Lorem</h2>
+            <ul>
+              <li class="fragment">Ipsum</li>
+              <li class="fragment">Dolor</li>
+              <li class="fragment">Sit
+                <ul>
+                  <li><code>foo</code></li>
+                  <li><code>bar</code></li>
+                  <li><code>baz</code></li>
+                </ul>
+              </li>
+            </ul>
+            <pre class="fragment"><code data-trim>
+              foreach (lorem as ipsum) {
+                print (foo);
+              }
+            </code></pre>
+          </section>
+        </section>
+        <section id="final-slide">
+          <h2>Beth and Kelsey</h2>
+          <p>Engineers, <a href="http://www.palantir.net/">Palantir.net</a></p>
+          <p>Let's Make Something Good Together</p>
+          <p>Keep tabs on our work at <a href="http://twitter.com/Palantir">@Palantir</a></p>
+          <p>Want to hear about <a href="http://palantir.us6.list-manage2.com/subscribe?u=5aa31c58f0e787da449134311&id=f329959900&MERGE3=Madison%20PHP%202014">what we're doing</a>?</p>
+          <p style="margin-top: 1em;">Rate this session: <a href="https://joind.in/11748">https://joind.in/####</a></p>
+        </section>
+      </div>
+    </div>
+
+    <footer class="palantir-logo">
+      <a href="http://www.palantir.net/"><img src="palantir/palantirnet-logo-4c-reversed.svg" alt="Palantir.net logo" height="40" /></a>
+    </footer>
+
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
