@@ -44,7 +44,18 @@ body {
   color: #eeeeee;
   line-height: 0.9em;
   letter-spacing: -0.025em;
-  font-weight: 600; }
+  font-weight: 600;
+  word-wrap: normal;
+}
+
+.reveal h1 strong,
+.reveal h2 strong,
+.reveal h3 strong,
+.reveal h4 strong,
+.reveal h5 strong,
+.reveal h6 strong {
+  color: #f90;
+}
 
 /*********************************************
  * CALLOUT TEXT
@@ -167,4 +178,12 @@ p.bigtext {
 .imgbox img{
   margin:0px;
   padding:0px;
+}
+
+table.red tr th {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+table.red tr td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0 5px;
 }
