@@ -46,7 +46,7 @@
           </div>
         </section>
 
-        <section>
+        <section id="your-hosts">
           <h2>Your Hosts</h2>
           <img src="palantir/palantirnet-logo-4c-reversed.svg" alt="Palantir.net Pays us!" style="width: 300px; float: right;" />
           <ul>
@@ -55,8 +55,8 @@
           </ul>
         </section>
 
-        <section>
-          <section data-background="">
+        <section id="babel-fish">
+          <section id="what-is-babel-fish" data-background="">
             <div style="font-weight: bold; position: relative; top: -3em; text-shadow: 2px 2px 2px #000;">
               <h2>What's a Babel Fish?</h2>
               <p>The Babel fish is a mythical creature that you put in your ear in order to understand any language spoken to you.</p>
@@ -64,7 +64,7 @@
             </div>
           </section>
 
-          <section data-background="">
+          <section id="dev-teams-need-babel-fish" data-background="">
             <div style="font-weight: bold; position: relative; top: -3em; text-shadow: 2px 2px 2px #000;">
               <h3>Development teams need these.</h3>
               <aside class="notes">Requirements, constraints, & assumptions that make sense to product owners can seem  like Greek to the developers, and vice versa.</aside>
@@ -72,8 +72,8 @@
             </div>
           </section>
         </section>
-        <section title="How to communicate">
-          <section title="How to communicate: overview">
+        <section id="how-to-communicate">
+          <section id="how-to-communicate-overview">
             <h2>How to describe a project</h2>
               <ol>
                 <li class="fragment">Identify your audience.</li>
@@ -82,7 +82,7 @@
                 <li class="fragment">Define "done".</li>
               </ol>
            </section>
-          <section title="How to communicate: Identify Audience">
+          <section id="how-to-communicate-identify-audience">
              <h2>Identify your audience</h2>
              <div class="fragment">
               <p>("Personas" in Agile-speak)</p>
@@ -104,7 +104,7 @@
                <p>Now ask the audience to describe Derrick Davenport as a user.</p>
              </aside>
            </section>
-          <section title="How to communicate: Describe the need">
+          <section id="how-to-communicate-describe-the-need">
              <h2>Describe the need</h2>
             <p class="fragment">("User stories" in Agile-speak)</p>
              <div class="fragment">
@@ -129,7 +129,7 @@
               <p>Clarify that they are <strong>not</strong> describing the banana slicer, but rather his need to have sliced bananas.</p>
             </aside>
           </section>
-          <section title="How to communicate: Context">
+          <section id="how-to-communicate-context">
              <h2>Include context</h2>
              <p class="fragment">("So that..." in Agile-speak)</p>
              <div class="fragment">
@@ -153,7 +153,7 @@
                <p>Ask the audience to add a "so that..." describing why Derrick needs all those banana slices.</p>
             </aside>
           </section>
-          <section title="How to communicate: Define Done">
+          <section id="how-to-communicate-define-done">
              <h2>Define "Done"</h2>
              <p class="fragment">("Acceptance criteria" in Agile-speak)</p>
              <div class="fragment">
@@ -175,7 +175,7 @@
             </aside>
           </section>
         </section>
-        <section title="How NOT to communicate">
+        <section id="how-not-to-communicate">
           <section id="mistakes">
             <h1><del>Mitsakes</del></h1>
             <h1>Mistakes</h1>
@@ -263,11 +263,11 @@
                 <th width="50%">Flaw</th>
               </tr>
               <tr class="fragment">
-                <td>"...a website that works"</td>
+                <td>"...sliced bananas."</td>
                 <td>Too vague.</td>
               </tr>
               <tr class="fragment">
-                <td>"...[specific JavaScript library, Drupal module, etc.]"</td>
+                <td>"...a banana slicer that has titanium and is handcrafted in Vermont."</td>
                 <td>Implementation details.</td>
               </tr>
               <tr class="fragment">
@@ -279,10 +279,17 @@
                 <td>Prerequisite ≠ task.</td>
               </tr>
               <tr class="fragment">
-                <td>"...a form for login that redirects me to my page that tells me when I last logged in and asks me to place a new order."</td>
+                <td>"...sliced bananas that are on a crust that is in a pie tin."</td>
                 <td>Multiple  behaviors.</td>
               </tr>
             </table>
+            <aside class="notes">
+              <ul>
+                <li>"...a website that works"</li>
+                <li>"...[specific JavaScript library, Drupal module, etc.]"</li>
+                <li>"...a form for login that redirects me to my page that tells me when I last logged in and asks me to place a new order."</li>
+              </ul>
+            </aside>
           </section>
           <section id="need-consequences">
             <h2>Consequences of<br /><strong>need description</strong><br />mistakes</h2>
@@ -323,6 +330,16 @@
               <img src="assets/amelia_bedelia_cover.jpg" alt="The cover of Amelia Bedelia book." />
             </a>
           </section>
+          <section id="context-consequences-amelia-chicken">
+          <a href="http://happyannebeth.blogspot.com/2011/06/amelia-bedelia-story-or-all-mixed-up.html" title="Amelia Bedelia picture source">
+              <img src="assets/amelia-bedelia-dress-chicken.JPG" alt="Amelia Bedelia dresses the chicken." />
+            </a>
+          </section>
+          <section id="context-consequences-amelia-drapes">
+          <a href="http://happyannebeth.blogspot.com/2011/06/amelia-bedelia-story-or-all-mixed-up.html" title="Amelia Bedelia picture source">
+              <img src="assets/amelia-bedelia-draw-drapes.jpeg" alt="Amelia Bedelia draws the drapes." />
+            </a>
+          </section>
           <section id="done-mistakes">
             <h2>Common<br /><strong>"done" definition</strong><br />mistakes</h2>
             <table class="red">
@@ -332,11 +349,11 @@
               </tr>
               <tr class="fragment">
                 <td>Unstated expectations</td>
-                <td>"I assumed this would work like our old site."<br />"Obviously this shadow on the comp means a popup on hover.”</td>
+                <td>"I assumed this would work like our apple slicer."<br />"Obviously this shading on the design means it will have rubber.”</td>
               </tr>
               <tr class="fragment">
                 <td>Vague expectations</td>
-                <td>"Given a website, when I do [task], then it works"</td>
+                <td>"Given a banana slicer, when I press down, then it works"</td>
               </tr>
               <tr class="fragment">
                 <td>Subjective goals</td>
@@ -344,13 +361,21 @@
               </tr>
               <tr class="fragment">
                 <td>Adding on more needs</td>
-                <td>"When I [task] then I can also [completely new task]."</td>
+                <td>"When I slice a banana then I can also make the pie filling."</td>
               </tr>
               <tr class="fragment">
                 <td>Overly technical</td>
-                <td>"When I log in an HTTP request goes to IP address 127.0.0.1 which generates response."</td>
+                <td>"When I apply 2 newtons of force at a 90° angle then I will slice the banana."</td>
               </tr>
             </table>
+            <aside class="notes">
+              <ul>
+                <li>"I assumed this would work like our old site."<br />"Obviously this shadow on the comp means a popup on hover.”</li>
+                <li>"Given a website, when I do [task], then it works"</li>
+                <li>"When I [task] then I can also [completely new task]."</li>
+                <li>"When I log in an HTTP request goes to IP address 127.0.0.1 which generates response."</li>
+              </ul>
+            </aside>
           </section>
           <section id="done-consequences">
             <h2>Consequences of<br /><strong>"done" definition</strong><br />mistakes</h2>
@@ -415,23 +440,6 @@
             <p class="">("Sprints" in Agile-speak)</p>
             <p class="bigtext fragment">Schedule = priorities + dependencies.</p>
           </section>
-          <section id="backlog">
-            <h2>Sorting</h2>
-            <ul>
-              <li>"Good enough" vs. "Cool extras"</li>
-              <li>Avoid “do everything first” syndrome.</li>
-              <li>Clicking and dragging items in a list enforces this.</li>
-            </ul>
-          </section>
-          <section id="ordinal-priorities">
-            <h2>Prioritizing</h2>
-            <ul>
-              <li>Ordinal prioritization</li>
-              <li>Avoid “do everything first” syndrome.</li>
-              <li>Clicking and dragging items in a list enforces this.</li>
-              <li>If it's not there, it's not done.</li>
-            </ul>
-          </section>
           <section id="focusing-priorities">
             <h2>Prioritizing</h2>
             <ul>
@@ -451,13 +459,26 @@
               </li>
             </ul>
           </section>
+          <section id="backlog">
+            <h2>Sorting</h2>
+            <p class="bigtext fragment">"Good enough" vs. "Cool extras"</p>
+          </section>
+          <section id="ordinal-priorities">
+            <h2>Prioritizing Tasks</h2>
+            <ul>
+              <li class="fragment">Ordinal prioritization</li>
+              <li class="fragment">Avoid “do everything first” syndrome.</li>
+              <li class="fragment">Clicking and dragging items in a list enforces this.</li>
+              <li class="fragment">If it's not there, it's not done.</li>
+            </ul>
+          </section>
           <section id="when-priorities">
             <h2>Re-prioritizing</h2>
             <ul>
-              <li>It's like brushing your teeth.</li>
-              <li>Don’t change priorities on work that's been started/scheduled.</li>
-              <li>Good recipe for many half-completed things and zero usable components.</li>
-              <li>“Project time” != development time.</li>
+              <li class="fragment">It's like brushing your teeth.</li>
+              <li class="fragment">Don’t change priorities on work that's been started/scheduled.</li>
+              <li class="fragment">Good recipe for many half-completed things and zero usable components.</li>
+              <li class="fragment">“Project time” != development time.</li>
             </ul>
           </section>
         </section>
