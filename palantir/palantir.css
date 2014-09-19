@@ -187,3 +187,9 @@ table.red tr td {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding: 0 5px;
 }
+
+.reveal .slides section.up {
+  position:absolute;
+  top: 2em;
+  margin-top:-2em;
+}
