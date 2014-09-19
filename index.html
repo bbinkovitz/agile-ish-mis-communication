@@ -180,6 +180,16 @@
             <h1><del>Mitsakes</del></h1>
             <h1>Mistakes</h1>
           </section>
+          <section id="mistakes-overview">
+              <h2>Mistakes in describing a project</h2>
+              <ol>
+                <li class="fragment">Misidentifying your audience.</li>
+                <li class="fragment">Describing the wrong task or just part of the task.</li>
+                <li class="fragment">Omitting context.</li>
+                <li class="fragment">Failing to define "done".</li>
+              </ol>
+
+          </section>
           <section id="audience-mistakes">
             <h2>Common<br /><strong>audience identification</strong><br />mistakes</h2>
             <div style="width: 49%; float:right; margin-left: 1%;" class="fragment">
@@ -289,6 +299,7 @@
                 <li>"...[specific JavaScript library, Drupal module, etc.]"</li>
                 <li>"...a form for login that redirects me to my page that tells me when I last logged in and asks me to place a new order."</li>
               </ul>
+              <p>Just right: "...to turn one banana into many half-inch thick, circular slices." (Make the audience propose a few before giving away.)</p>
             </aside>
           </section>
           <section id="need-consequences">
@@ -296,11 +307,10 @@
             <p class="fragment">These mistakes indicate a lack of a vision about what the users will actually <strong>do</strong>.</p>
             <ol style="width:48%;float:left;">
               <li class="fragment">Confusion about what the need even <strong>is</strong>.</li>
-              <li class="fragment">Project scope gets squishy.</li>
+              <li class="fragment">Scope gets squishy.</li>
               <li class="fragment">Developers clash.</li>
               <li class="fragment">Work is duplicated.</li>
               <li class="fragment">Requirements fall through the cracks.</li>
-              <li class="fragment">Developers make guesses about your users' needs.</li>
               <li class="fragment">Product doesn’t behave as expected, has missing parts.</li>
             </ol>
             <a href="http://www.designswan.com/archives/interesting-banana-carving-human-face-on-banana.html" title="Banana faces image source"  class="fragment">
@@ -329,11 +339,15 @@
             <a href="http://www.rachelswartley.com/2011/05/04/amelia-bedelia/" title="Amelia Bedelia picture source" style="width:34%;float:right;" class="fragment">
               <img src="assets/amelia_bedelia_cover.jpg" alt="The cover of Amelia Bedelia book." />
             </a>
+            <aside class="notes">
+              <p>"...so that I can decorate the top of the pie." (Again, make audience propose some first.)</p>
+            </aside>
           </section>
           <section id="context-consequences-amelia-chicken">
-          <a href="http://happyannebeth.blogspot.com/2011/06/amelia-bedelia-story-or-all-mixed-up.html" title="Amelia Bedelia picture source">
-              <img src="assets/amelia-bedelia-dress-chicken.JPG" alt="Amelia Bedelia dresses the chicken." />
+          <a href="http://happyannebeth.blogspot.com/2011/06/amelia-bedelia-story-or-all-mixed-up.html" style="float:left; max-width: 60%;margin-top:0px;padding-top:0px;" title="Amelia Bedelia picture source">
+              <img src="assets/amelia-bedelia-dress-chicken.JPG" alt="Amelia Bedelia dresses the chicken."/>
             </a>
+            <p class="bigtext">"This is not what I meant by 'dress the turkey'!"</p>
           </section>
           <section id="context-consequences-amelia-drapes">
           <a href="http://happyannebeth.blogspot.com/2011/06/amelia-bedelia-story-or-all-mixed-up.html" title="Amelia Bedelia picture source">
@@ -361,7 +375,7 @@
               </tr>
               <tr class="fragment">
                 <td>Adding on more needs</td>
-                <td>"When I slice a banana then I can also make the pie filling."</td>
+                <td>"When I slice a banana then I can also turn on the oven."</td>
               </tr>
               <tr class="fragment">
                 <td>Overly technical</td>
@@ -375,15 +389,17 @@
                 <li>"When I [task] then I can also [completely new task]."</li>
                 <li>"When I log in an HTTP request goes to IP address 127.0.0.1 which generates response."</li>
               </ul>
+              <p>The common thread in all of these is that they fail to define "done". They lack an explanation of the criteria that you (or your users) will apply to determine whether the product works.</p>
             </aside>
           </section>
           <section id="done-consequences">
             <h2>Consequences of<br /><strong>"done" definition</strong><br />mistakes</h2>
-            <p class="fragment">These mistakes indicate a lack of a vision about how products are expected to work.</p>
+            <p class="fragment">These mistakes indicate a lack of clarity about how product will be tested.</p>
             <ol style="width:60%;float:left;">
               <li class="fragment">Confusion about how needs are <strong>fulfilled</strong>.</li>
               <li class="fragment">Schedule gets squishy.</li>
               <li class="fragment">Developers must guess at <strong>how</strong> the work is evaluated.</li>
+              <li class="fragment">Acceptance tests fail.</li>
               <li class="fragment">Product mostly works but might be late or over budget.</li>
             </ol>
             <a href="http://www.savingdessert.com/2012/09/grilled-bananas-with-maple-creme-fraiche/" title="Sliced longways banana picture source" style="max-width:34%;float:right;" class="fragment">
@@ -401,6 +417,15 @@
               <li>When you have a blocker</li>
               <li>Early and often</li>
             </ul>
+            <aside class="notes">
+              <p>This is like...</p>
+              <ul>
+                <li>...making sure you have all the ingredients before you start cooking.</li>
+                <li>...making sure that your sous-chefs understand the recipe before they start chopping.</li>
+                <li>...working on the crust while the filling sets.</li>
+                <li>...checking the recipe card whenever you're unsure of something.</li>
+              </ul>
+            </aside>
           </section>
           <section id="before-developers">
             <h2><strong>Before</strong><br />you talk to developers</h2>
@@ -416,10 +441,19 @@
               </li>
             </ul>
           </section>
+          <section id="communication-fail">
+            <a href="http://gigglesbits.blogspot.com/2010/06/warning-do-not-put-cardboard-box-in.html" title="oven fire photo source">
+              <img src="assets/oven-fire-645.jpg" alt="An oven with flames and smoke pouring out. Not good."/>
+            </a>
+            <p>Pictured above: what happens when you try to add a pinch of nutmeg <em>after</em> the pie goes in the oven.</p>
+          </section>
           <section id="blockers">
             <h2>When there's a<br /><strong>blocker</strong></h2>
             <p class="bigtext">(part of the project is waiting on another part of the project)</p>
-            <ul class="fragment">
+            <a href="http://www.bonappetit.com/entertaining-style/gift-guides/slideshow/gift-ideas-design-lovers" title="kitchen timer photo source">
+              <img src="assets/aluminum-double-timer.jpg" alt="A kitchen timer with two dials, to track two different time intervals." style="width:47%;float:right;" />
+            </a>
+            <ul class="fragment" style="width:48%;float:left;">
               <li>Other development tasks</li>
               <li>Missing information</li>
               <li>Does NOT include just being unavailable.</li>
@@ -427,8 +461,8 @@
                 <ul>
                   <li>Find out <em>their</em> need.</li>
                   <li>Keep them updated.</li>
-                  <li>Don't meddle.
-                  <aside class="notes">Don't take back tasks that have already been started even if it seems like it would be faster. In the short run, it might be. In the long run, it creates bad habits and communication overhead.</aside></li>
+                  <li>Don't second-guess.
+                  <aside class="notes">Don't take back tasks that have already been started even if it seems like it would be faster. In the short run, it might be. In the long run, it creates bad habits and communication overhead. The cost of correcting a few imperfections is almost always much less than the cost of constant second-guessing.</aside></li>
                 </ul>
               </li>
             </ul>
